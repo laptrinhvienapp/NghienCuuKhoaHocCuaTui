@@ -20,6 +20,7 @@ class MainApp extends StatelessWidget {
     const primaryColor = Color(0xff4338CA);
     const secondaryColor = Color(0xff6D28D9);
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       navigatorKey: navigatorKey,
       theme: ThemeData(
         primaryColor: primaryColor,
